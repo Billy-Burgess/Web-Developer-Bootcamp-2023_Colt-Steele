@@ -1,0 +1,63 @@
+h1 {
+    background-color: palegoldenrod;
+    border: 1px solid black;
+    display: block;
+}
+
+span {
+    background-color: paleturquoise;
+    border: 1px solid black;
+    display: block;
+}
+
+#one {
+    background-color: palegoldenrod;
+    border: 1px solid black;
+    display: inline;
+}
+
+/*h1 & span above have swapped attributes. #one is inline*/
+
+div {
+    height: 200px;
+    width: 200px;
+    background-color: olivedrab;
+    border: 5px solid black;
+    display: inline-block;
+}
+
+section {
+    background-color: #b5838d;
+    width: 800px;
+    height: 800px;
+    margin-top: 50px;
+}
+
+#look {
+    background-color: #6d6875;
+    width: 50%;
+    height: 50%;
+}
+
+H2 {
+    font-size: 40PX;
+    border: 1PX SOLID black;
+    line-height: 200%;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+article {
+    font-size: 10px;
+}
+
+button {
+    margin-bottom: 10PX;
+    background-color: #dda15e;
+    color: #e63946;
+    border-radius: 0.5em;
+    font-size: 1em;
+    padding: .25em;
+}

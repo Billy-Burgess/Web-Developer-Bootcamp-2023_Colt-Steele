@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+    font-weight: normal;
+    text-decoration: red double underline 5px;
+    letter-spacing: 10px;
+    font-size: 80px;
+    font-family: Arial;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 2;
+}
+
+h2,
+h3 {
+    text-decoration: red underline;
+}
