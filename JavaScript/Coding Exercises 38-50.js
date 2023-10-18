@@ -81,3 +81,21 @@ const fullNames = [{ first: 'Albus', last: 'Dumbledore' }, { first: 'Harry', las
 const firstNames = fullNames.map(function (t) {
     return t.first;
 })
+
+// 48 Arrow Function Exercise:
+const greet = (name) => {
+    return `Hey ${name}!`;
+}
+
+// 49 Filter Exercise:
+function validUserNames(usernames) {
+    // your code here
+    return usernames.filter(name => name.length < 10);
+}
+
+// 50 Some/Every Exercise:
+function allEvens(num) {
+    return num.every(function (num) {
+        return num % 2 === 0;
+    });
+}
